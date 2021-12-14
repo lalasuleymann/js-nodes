@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sidebar{
+    position: fixed;
+    width: 0px;
+    height: 100%;
+    background-color: black;
+    transition: left 1s ease;
+}
+.btn{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    height: 45px;
+    width: 45px;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: left 0.3s ease;
+    span{
+        font-size: 30px;
+        color: white;
+        padding-top: 7px;
+    }
+}

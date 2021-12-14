@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.buttons{
+    padding: 50px;
+    button{
+        margin: 20px;
+        width: 70px;
+        height: 20px;
+        cursor: pointer;
+        &:hover{
+            color: black;
+        }
+    }
+    .button-1{
+        background-color: blue;
+        color: white;
+        font-size: 15px;
+    }
+    .button-2{
+        background-color: red;
+        color: white;
+        font-size: 15px;
+    }
+    .button-3{
+        background-color: darkorange;
+        color: white;
+        font-size: 15px;
+    }
+    .button-4{
+        background-color: gold;
+        color: white;
+        font-size: 15px;
+    }
+}
+.boxes{
+    padding: 0px 50px;
+    input{
+        margin: 20px;
+        width: 70px;
+        height: 20px;
+    }
+}
